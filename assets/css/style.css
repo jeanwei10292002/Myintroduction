@@ -524,15 +524,23 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border:  1px solid #e5ebf2;
 }
 
-.profiles-content {padding-top: 100px;}
+
+.profiles-content {padding-top: 100px;
+display: flex;
+    justify-content: center;
+
+}
 .profiles-content .col-sm-3{padding:0;}
 .profile-txt {
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
+
 .single-profile {
     position: relative;
+    width: 250px;
     height: 150px;
     display: flex;
     justify-content: center;
